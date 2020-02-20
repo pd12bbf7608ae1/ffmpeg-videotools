@@ -55,6 +55,7 @@ sudo yum install ffmpeg bc mediainfo
 
 虽然使用匿名上传也是可行的，但上传后会难以对图片进行管理（需要查看相关日志）。
 注册完毕后在 https://sm.ms/home/apitoken 中生成 token 填入 token 变量中以便将文件保存在你的账户下。
+
 ## 用法
 
 假定脚本文件放入`$PATH`目录下并命名为`videotools.sh`
@@ -84,7 +85,18 @@ sudo yum install ffmpeg bc mediainfo
 ### 例子
 
 `videotools.sh <video file path>`
-输出视频文件的信息并保存
+
+输出视频文件的信息并保存。
+
+`videotools.sh <video file path> -M 00:10:10 -sjuW 1280`
+
+屏蔽视频文件的信息输出，在时间`00:10:00`处以`1280`宽的分辨率截图，转换为 jpg 格式并上传 sm.ms 图床。
+
+`videotools.sh <video file path> -m 4x4 -suw 500`
+
+屏蔽视频文件的信息输出，以`4x4`的格式生成缩略图，单张截图宽`500`
+
+
 
 ## Contributing
 
