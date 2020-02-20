@@ -55,18 +55,36 @@ sudo yum install ffmpeg bc mediainfo
 
 虽然使用匿名上传也是可行的，但上传后会难以对图片进行管理（需要查看相关日志）。
 注册完毕后在 https://sm.ms/home/apitoken 中生成 token 填入 token 变量中以便将文件保存在你的账户下。
+## 用法
 
-## 使用
-`bash <script file path> <video file path> [options...]`
+假定脚本文件放入`$PATH`目录下并命名为`videotools.sh`
+
+`videotools.sh <video file path> [options...]`
 
 或者
 
-`bash <script file path> [options...] <video file path>`
+`videotools.sh [options...] <video file path>`
 
 第二种用法在一些系统中会失效（脚本无法获取最后一个参数）。
 
-## 参数列表
+### 参数列表
 
+|选项|描述|
+| ------------ | ------------ |
+|`-h`|打印帮助信息|
+|`-j`|将输出的 png 图像转换为 jpg 格式（无该选项则仅输出 png ）|
+|`-m <横向数量>x<纵向数量>`|指定将多个截图合并到一张图片的排列格式（不指定则不输出）|
+|`-M <时间>`|指定手动截图的时间参数,格式同 `ffmpeg` 时间格式|
+|`-n <图片数量>`|指定输出单独截图的数目（不指定则不输出）|
+|`-s`|屏蔽视频信息输出（仅截图）|
+|`-u`|将截图上传至 sm.ms 图床（`-j`存在时上传 jpg 格式，否则为 png 格式）|
+|`-w <像素数量>`|指定`-m`参数中单张截图的宽度，不指定则使用视频原始分辨率|
+|`-W <像素数量>`|指定`-M`与`-n`参数中单张截图的宽度，不指定则使用视频原始分辨率|
+
+### 例子
+
+`videotools.sh <video file path>`
+输出视频文件的信息并保存
 
 ## Contributing
 
