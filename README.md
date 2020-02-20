@@ -49,24 +49,24 @@ sudo yum install ffmpeg bc mediainfo
 
 ### 将脚本保存位置添加到 PATH 变量中并增加执行权限
 
-这有利于从任何文件夹方便调用本脚本
+这有利于从任何文件夹方便调用本脚本。
 
 ### 去 sm.ms 图床注册个账号
 
 虽然使用匿名上传也是可行的，但上传后会难以对图片进行管理（需要查看相关日志）。
 注册完毕后在 https://sm.ms/home/apitoken 中生成 token 填入 token 变量中以便将文件保存在你的账户下。
 
+## 使用
+`bash <script file path> <video file path> [options...]`
 
+或者
 
-## Deployment
+`bash <script file path> [options...] <video file path>`
 
-Add additional notes about how to deploy this on a live system
+第二种用法在一些系统中会失效（脚本无法获取最后一个参数）。
 
-## Built With
+## 参数列表
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
 
 ## Contributing
 
