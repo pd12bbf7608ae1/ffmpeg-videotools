@@ -14,7 +14,7 @@ Ubuntu 系统内置了curl与bc命令，官方软件仓库拥有 ffmpeg 与 medi
 sudo apt install ffmpeg mediainfo
 ```
 
-
+以上操作在 Ubuntu 18.04 Server 与 Ubuntu 19.10 Server 系统测试。
 
 ### CentOS 系统
 
@@ -31,25 +31,32 @@ sudo yum localinstall --nogpgcheck https://mirrors.ustc.edu.cn/rpmfusion/free/el
 sudo yum install ffmpeg bc mediainfo
 ```
 
-## Running the tests
+以上操作在 CentOS 7 系统测试。
 
-Explain how to run the automated tests for this system
+## 使用脚本前的建议
 
-### Break down into end to end tests
+### 修改脚本的参数
 
-Explain what these tests test and why
+在脚本文件前有一系列的参数设置，至少需要修改：
+- picturepath (截图保存目录)
+- logpath (信息保存目录)
 
-```
-Give an example
-```
+这两个选项，以便脚本保存相关信息，默认两个目录均为：
 
-### And coding style tests
+`$HOME/Pictures/VedioCapture`
 
-Explain what these tests test and why
+请按照个人的习惯进行修改，并保证脚本使用者对该目录有写入的权限。
 
-```
-Give an example
-```
+### 将脚本保存位置添加到 PATH 变量中并增加执行权限
+
+这有利于从任何文件夹方便调用本脚本
+
+### 去 sm.ms 图床注册个账号
+
+虽然使用匿名上传也是可行的，但上传后会难以对图片进行管理（需要查看相关日志）。
+注册完毕后在 https://sm.ms/home/apitoken 中生成 token 填入 token 变量中以便将文件保存在你的账户下。
+
+
 
 ## Deployment
 
