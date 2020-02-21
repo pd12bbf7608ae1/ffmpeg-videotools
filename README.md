@@ -1,5 +1,7 @@
 # ffmpeg-videotools
 
+[English Version](https://github.com/pdxgf1208/ffmpeg-videotools/blob/master/Readme_eng.md)
+
 使用 ffmpeg 、mediainfo 和 curl 进行视频文件信息生成、视频截图生成与上传sm.ms图床的bash脚本工具。
 
 ## 使用效果
