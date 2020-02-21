@@ -212,7 +212,7 @@ sudo yum install ffmpeg bc mediainfo
 
 1. 感谢[FFmpeg](https://www.ffmpeg.org/ "FFmpeg")提供的强大视频处理工具和详尽的[Wiki](https://trac.ffmpeg.org/wiki "Wiki")文档；
 1. 感谢[MediaInfo](https://mediaarea.net/en/MediaInfo "MediaInfo")提供的视频信息提取工具;
-1. 感谢[sm.ms图床](https://sm.ms/ "sm.ms图床")提供的免费、可靠服务和易用的[API](https://doc.sm.ms/ "API")。
+1. 感谢[sm.ms图床](https://sm.ms/ "sm.ms图床")提供的免费、可靠服务和易用的[API](https://doc.sm.ms/ "API")；
 1. 感谢[中国科学技术大学开源软件镜像站](https://mirrors.ustc.edu.cn/ "中国科学技术大学开源软件镜像站")提供的软件镜像服务和帮助文档。
 
 ## 许可
