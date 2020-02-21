@@ -6,7 +6,6 @@
 
 以下为对样例文件进行使用的结果输出：
 
-
     Brief information:
     ★★★★★ General Information ★★★★★
     File Name............: Snow.White.and.the.Seven.Dwarfs.1937.mp4
@@ -69,6 +68,8 @@
     Vedio info saved to /home/ubuntu/Pictures/VedioCapture/20200221-115213-Snow.White.and.the.Seven.Dwarfs.1937.mp4
     Pictures saved to /home/ubuntu/Pictures/VedioCapture/20200221-115213-Snow.White.and.the.Seven.Dwarfs.1937.mp4
     Upload log saved to /home/ubuntu/Pictures/VedioCapture/20200221-115213-Snow.White.and.the.Seven.Dwarfs.1937.mp4
+
+截图效果可以参考[Examplefile](https://github.com/pdxgf1208/ffmpeg-videotools/Examplefile "Examplefile")中的文件。
 
 ## 依赖安装
 
