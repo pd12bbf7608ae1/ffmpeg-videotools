@@ -69,7 +69,7 @@ The following is the output from the sample file:
     Pictures saved to /home/ubuntu/Pictures/VedioCapture/20200221-115213-Snow.White.and.the.Seven.Dwarfs.1937.mp4
     Upload log saved to /home/ubuntu/Pictures/VedioCapture/20200221-115213-Snow.White.and.the.Seven.Dwarfs.1937.mp4
 
-The screenshots can be referred to [Examplefile](https://github.com/pdxgf1208/ffmpeg-videotools/tree/master/Examplefile "Examplefile") .
+The screenshots can be referred to [Examplefile](Examplefile "Examplefile") .
 
 ## Install dependency softwares
 
