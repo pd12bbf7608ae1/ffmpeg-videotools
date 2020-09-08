@@ -1,6 +1,6 @@
 # 脚本生成文件样例
 
-[English Version](https://github.com/pdxgf1208/ffmpeg-videotools/blob/dev/Examplefile/Readme_eng.md "English Version")
+[English Version](Readme_eng.md "English Version")
 
 *测试视频为1937年动画白雪公主(Snow White and the Seven Dwarfs)的片段。*
 
